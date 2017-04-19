@@ -2,31 +2,22 @@
   "name": "bare-bones",
   "version": "1.0.0",
   "description": "BareBones is a prototype of a super-basic boilerplate for the GraceShopper project of Senior Phase",
-  "main": "index.js",
+  "main": "./server/server.js",
   "scripts": {
     "test": "mocha ./**/*.spec.js",
-    "start": "nodemon ./index.js"
+    "start": "nodemon"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaizerroll/BareBones.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "barebones"
-  ],
   "author": "Benjamin Cohen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kaizerroll/BareBones/issues"
-  },
-  "homepage": "https://github.com/kaizerroll/BareBones#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   }
 }

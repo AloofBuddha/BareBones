@@ -34,6 +34,12 @@ This will be a basic overview of the steps I am taking. Try and not be too pedan
   - [x] create basic test (index.spec.js)
   - [x] add node-modules to .gitignore
 
-3. create express backend to serve a basic HTML page 
+3. create express backend to serve a basic HTML page + API
   - [x] added express to dependencies (`yarn add express`)
-  - [ ] create a server that serves a basic html page
+  - [x] create a server that serves a basic html page
+  - [x] add logging middleware (+ morgan dependency)
+  - [x] add body-parsing middleware
+  - [x] add static-middleware and public folder
+  - [x] add fav-icon, serve fav-icon
+  - [x] add basic api
+  - [x] add supertest to devDependencies
