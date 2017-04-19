@@ -12,16 +12,18 @@
 4. Explicitness before Cleverness
 5. Prioritize Essentials before Whistles
 
-## To Do
-
-Towards that end, my first task is:
-
-- [x] setup git, push to remote
-- [ ] include basic dependencies
-- [ ] create express backend to serve a basic HTML page
-
 ## Walkthrough
 
 This will be a basic overview of the steps I am taking. Try and not be too pedantic Ben!
 
-1. git init, add README.md, create Github repo and push
+1. [x] Git Setup
+  - `git init`
+  - add README.md
+  - `git commit -m "first commit"`
+  - create remote Github repo
+  - `git remote add origin <my-remote-github-url>`
+  - `git push -u origin master`
+
+2. [ ] NPM setup + dependencies
+
+3. [ ] create express backend to serve a basic HTML page 
