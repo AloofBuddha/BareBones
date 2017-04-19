@@ -16,14 +16,14 @@
 
 This will be a basic overview of the steps I am taking. Try and not be too pedantic Ben!
 
-1. [x] Git Setup
-  - `git init`
-  - add README.md
-  - `git commit -m "first commit"`
-  - create remote Github repo
-  - `git remote add origin <my-remote-github-url>`
-  - `git push -u origin master`
+1. Git Setup
+  - [x] `git init`
+  - [x] add README.md
+  - [x] `git commit -m "first commit"`
+  - [x] create remote Github repo
+  - [x] `git remote add origin <my-remote-github-url>`
+  - [x] `git push -u origin master`
 
-2. [ ] NPM setup + dependencies
+2. NPM setup + dependencies
 
-3. [ ] create express backend to serve a basic HTML page 
+3. create express backend to serve a basic HTML page 
