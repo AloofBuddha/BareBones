@@ -25,5 +25,15 @@ This will be a basic overview of the steps I am taking. Try and not be too pedan
   - [x] `git push -u origin master`
 
 2. NPM setup + dependencies
+  - [x] `npm init`
+  - [x] added nodemon to devDependencies (`yarn add --dev nodemon`)
+  - [x] create 'hello world' logging main script (index.js)
+  - [x] create start script in `package.json`
+  - [x] add mocha and chai (`yarn add --dev mocha chai`)
+  - [x] create test script in `package.json`
+  - [x] create basic test (index.spec.js)
+  - [x] add node-modules to .gitignore
 
 3. create express backend to serve a basic HTML page 
+  - [x] added express to dependencies (`yarn add express`)
+  - [ ] create a server that serves a basic html page
