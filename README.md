@@ -16,9 +16,9 @@
 
 Towards that end, my first task is:
 
-- setup git, push to remote
-- include basic dependencies
-- create express backend to serve a basic HTML page
+- [x] setup git, push to remote
+- [] include basic dependencies
+- [] create express backend to serve a basic HTML page
 
 ## Walkthrough
 
